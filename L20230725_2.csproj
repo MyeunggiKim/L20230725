@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AiController.cs" />
     <Compile Include="Component.cs" />
+    <Compile Include="Crash.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="GoalIn.cs" />
