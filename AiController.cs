@@ -22,7 +22,6 @@ namespace L20230725_2
                 Engine.Quit();
                 return;
             }
-
             Random random = new Random();
             int direction = random.Next(0, 4);
             if (direction == 0)

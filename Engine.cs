@@ -34,7 +34,12 @@ namespace L20230725_2
             gameObjects.Add(newGameObject);
         }
 
-        List<GameObject> gameObjects;
+        public List<GameObject> GetAllGameObjects()
+        {
+            return gameObjects;
+        }
+
+        protected List<GameObject> gameObjects;
 
         public void Run()
         {

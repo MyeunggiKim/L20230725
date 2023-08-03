@@ -45,6 +45,7 @@ namespace L20230725_2
                         wall.transform.y = y;
                         wall.AddComponent(new MeshFilter('*'));
                         wall.AddComponent(new MeshRenderer());
+                        wall.AddComponent(new Collider());
                         myEngine.Instanciate(wall);
                     }
                     else if (map[y,x] == 0)

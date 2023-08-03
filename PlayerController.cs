@@ -17,14 +17,15 @@ namespace L20230725_2
         public override void Update()
         {
             if(Input.GetKeyDown(ConsoleKey.W))
-            {
-                transform.Translate(0, -1);
+            {                
+                transform.Translate(0, -1);            
             }
             if(Input.GetKeyDown(ConsoleKey.S))
             {
                 transform.Translate(0, 1);
+            
             }
-            if(Input.GetKeyDown(ConsoleKey.A))
+            if(Input.GetKeyDown(ConsoleKey.A))                
             {
                 transform.Translate(-1, 0);
             }
